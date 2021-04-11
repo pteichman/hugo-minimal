@@ -1,0 +1,12 @@
+<html>
+  <body>
+    <h1>This is layouts/index.html</h1>
+
+    <h2>{{ .Title }}</h2>
+    {{ .Content }}
+
+    {{ range first 10 .Pages }}
+    {{ .Render "summary" }}
+    {{ end }}
+  </body>
+</html>
