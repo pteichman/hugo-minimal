@@ -1,4 +1,3 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "config.toml site title"
-disableKinds = ["taxonomy", "taxonomyTerm"]
